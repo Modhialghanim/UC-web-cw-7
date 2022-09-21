@@ -8,15 +8,17 @@ let random_grade_div = document.getElementById("random-grade");
 
 /*  الجزء الأول والثاني من التمرين */
 
-
-
-
+grades.pop[13]
+grades.push(99)
+all_grades_div.getElementById("grades").innerHTML = "  ";
+let randomIndex = Math.floor(Math.random() * grades.length)
 
 
 
 
 
 /* الجزء الثالث من التمرين */
+
 
 let course = {
   name: "UniCODE",
@@ -26,12 +28,16 @@ let course = {
 }
 
 //Change studentsCount,track property here
+course.studentsCount=40
 
 
 
 //Console log here
 
-
+console.log()
 
 //Create student object here
-
+let student={
+  nmae: "modhi" ,
+  universty: "Kuwait University"
+}
